@@ -1,0 +1,57 @@
+.consulta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.consulta-card, .result-card {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.titleSocio {
+  padding: 2%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.consultaCNPJ {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.socio-card {
+  margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .consulta-card, .result-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .consulta-card, .result-card {
+    padding: 8px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  .button-container button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
